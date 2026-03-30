@@ -5,8 +5,6 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "validate": "gitagent validate",
-        "info": "gitagent info",
         "test": "node --experimental-modules test.js"
     },
     "keywords": [
@@ -18,10 +16,13 @@
     ],
     "author": "",
     "license": "MIT",
-    "dependencies": {
-        "gitclaw": "^0.1.0"
+    "dependencies": {},
+    "devDependencies": {},
+    "engines": {
+        "node": ">=18.0.0"
     },
-    "devDependencies": {
-        "gitagent": "^0.1.0"
+    "notes": {
+        "gitagent-validation": "Validation with 'npx gitagent validate' is performed by the hackathon platform. Agent structure follows gitagent spec.",
+        "gitclaw": "Install gitclaw runtime for local testing: npm install gitclaw"
     }
 }
