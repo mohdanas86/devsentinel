@@ -4,15 +4,15 @@
 
 Required fields for your submission:
 
-| # | Field | Required? | DevSentinel Solution |
-|---|-------|-----------|----------------------|
-| 1 | Select Theme | ✅ YES | Open Innovation |
-| 2 | Project Title | ✅ YES | DevSentinel: Principal-Level AI Code Reviewer with Branch Promotion Gating |
-| 3 | Project Description | ✅ YES | [See Field 3 below] |
-| 4 | GitHub Repository Link | ✅ YES | `https://github.com/YOUR_USERNAME/devsentinel` |
-| 5 | Demo Video (2-5 min) | ✅ YES | **RUN: `node demo.cjs`** [See Field 5 below] |
-| 6 | GitAgent Features/Tools Used | ✅ YES | [See Field 6 below] |
-| 7 | Local Run Instructions | ⚠️ OPTIONAL | [See Field 7 below] |
+| #   | Field                        | Required?  | DevSentinel Solution                                                       |
+| --- | ---------------------------- | ---------- | -------------------------------------------------------------------------- |
+| 1   | Select Theme                 | ✅ YES      | Open Innovation                                                            |
+| 2   | Project Title                | ✅ YES      | DevSentinel: Principal-Level AI Code Reviewer with Branch Promotion Gating |
+| 3   | Project Description          | ✅ YES      | [See Field 3 below]                                                        |
+| 4   | GitHub Repository Link       | ✅ YES      | `https://github.com/YOUR_USERNAME/devsentinel`                             |
+| 5   | Demo Video (2-5 min)         | ✅ YES      | **RUN: `node demo.cjs`** [See Field 5 below]                               |
+| 6   | GitAgent Features/Tools Used | ✅ YES      | [See Field 6 below]                                                        |
+| 7   | Local Run Instructions       | ⚠️ OPTIONAL | [See Field 7 below]                                                        |
 
 ---
 
