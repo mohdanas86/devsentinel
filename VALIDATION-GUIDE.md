@@ -102,12 +102,12 @@ git status
 
 ### ✅ Step 6: Verify Content Quality
 
-| File | Validation | Expected |
-|------|-----------|----------|
-| SOUL.md | Has Core Identity, Communication Style, Values | Yes |
-| RULES.md | Has "Must Always" + "Must Never" sections | Yes |
-| README.md | Has problem statement, 6 skills, examples | Yes |
-| Each SKILL.md | Has Overview, Input, Output, Steps, Criteria | Yes |
+| File          | Validation                                     | Expected |
+| ------------- | ---------------------------------------------- | -------- |
+| SOUL.md       | Has Core Identity, Communication Style, Values | Yes      |
+| RULES.md      | Has "Must Always" + "Must Never" sections      | Yes      |
+| README.md     | Has problem statement, 6 skills, examples      | Yes      |
+| Each SKILL.md | Has Overview, Input, Output, Steps, Criteria   | Yes      |
 
 ---
 
@@ -217,14 +217,14 @@ When you submit to HackCulture, their platform will:
 
 Your project passes when:
 
-| Check | Status | Evidence |
-|-------|--------|----------|
-| All files present | ✅ | File structure complete |
-| YAML valid | ✅ | No syntax errors in agent.yaml |
-| 6 skills defined | ✅ | All SKILL.md files exist |
-| Content quality | ✅ | SOUL.md + RULES.md + skills complete |
-| Git clean | ✅ | No uncommitted changes |
-| README explains vision | ✅ | Problem statement + examples present |
+| Check                  | Status | Evidence                             |
+| ---------------------- | ------ | ------------------------------------ |
+| All files present      | ✅      | File structure complete              |
+| YAML valid             | ✅      | No syntax errors in agent.yaml       |
+| 6 skills defined       | ✅      | All SKILL.md files exist             |
+| Content quality        | ✅      | SOUL.md + RULES.md + skills complete |
+| Git clean              | ✅      | No uncommitted changes               |
+| README explains vision | ✅      | Problem statement + examples present |
 
 ---
 

@@ -26,21 +26,21 @@
 
 ### Core Submission (13 files):
 
-| File | Purpose | Status |
-|------|---------|--------|
-| `agent.yaml` | Agent manifest | ✅ Valid |
-| `SOUL.md` | Agent identity | ✅ Complete |
-| `RULES.md` | Constraints | ✅ Complete |
-| `skills/pr-diff-reader/SKILL.md` | Parse diffs | ✅ Valid |
-| `skills/security-scanner/SKILL.md` | Detect vulnerabilities | ✅ Valid |
-| `skills/quality-analyzer/SKILL.md` | Analyze quality | ✅ Valid |
-| `skills/test-gap-detector/SKILL.md` | Flag test gaps | ✅ Valid |
-| `skills/review-composer/SKILL.md` | Synthesize review | ✅ Valid |
-| `skills/branch-guardian/SKILL.md` | Gate promotion ⭐ | ✅ Valid |
-| `package.json` | Project config | ✅ Valid |
-| `README.md` | Documentation | ✅ Complete |
-| `SUBMISSION.md` | Submission guide | ✅ Complete |
-| `.gitignore` | VCS config | ✅ Valid |
+| File                                | Purpose                | Status     |
+| ----------------------------------- | ---------------------- | ---------- |
+| `agent.yaml`                        | Agent manifest         | ✅ Valid    |
+| `SOUL.md`                           | Agent identity         | ✅ Complete |
+| `RULES.md`                          | Constraints            | ✅ Complete |
+| `skills/pr-diff-reader/SKILL.md`    | Parse diffs            | ✅ Valid    |
+| `skills/security-scanner/SKILL.md`  | Detect vulnerabilities | ✅ Valid    |
+| `skills/quality-analyzer/SKILL.md`  | Analyze quality        | ✅ Valid    |
+| `skills/test-gap-detector/SKILL.md` | Flag test gaps         | ✅ Valid    |
+| `skills/review-composer/SKILL.md`   | Synthesize review      | ✅ Valid    |
+| `skills/branch-guardian/SKILL.md`   | Gate promotion ⭐       | ✅ Valid    |
+| `package.json`                      | Project config         | ✅ Valid    |
+| `README.md`                         | Documentation          | ✅ Complete |
+| `SUBMISSION.md`                     | Submission guide       | ✅ Complete |
+| `.gitignore`                        | VCS config             | ✅ Valid    |
 
 **Additional Files (Support):**
 - `VALIDATION-GUIDE.md` — Manual validation without CLI
@@ -158,14 +158,14 @@ Compress-Archive -Path devsentinel -DestinationPath devsentinel-submission.zip
 
 **Your advantages:**
 
-| Aspect | DevSentinel | Generic Agent |
-|--------|------------|---------------|
-| **Problem** | Real bottleneck (code review) | Vague applicability |
-| **Solution** | 6 focused skills | Scattered features |
-| **Differentiator** | Branch promotion (git-native) | Generic LLM wrapper |
+| Aspect               | DevSentinel                   | Generic Agent          |
+| -------------------- | ----------------------------- | ---------------------- |
+| **Problem**          | Real bottleneck (code review) | Vague applicability    |
+| **Solution**         | 6 focused skills              | Scattered features     |
+| **Differentiator**   | Branch promotion (git-native) | Generic LLM wrapper    |
 | **Enterprise Ready** | Security + tests + compliance | No production concerns |
-| **Documentation** | Comprehensive | Minimal |
-| **Scope** | Realistic (4 days) | Likely incomplete |
+| **Documentation**    | Comprehensive                 | Minimal                |
+| **Scope**            | Realistic (4 days)            | Likely incomplete      |
 
 **Most teams will:**
 - ❌ Try 10+ skills and submit incomplete
@@ -183,16 +183,16 @@ Compress-Archive -Path devsentinel -DestinationPath devsentinel-submission.zip
 
 ## 📊 Project Statistics
 
-| Metric | Value |
-|--------|-------|
-| **Total Lines** | 3,500+ |
-| **Skills** | 6 (each fully specified) |
-| **Files** | 13 (code + docs) |
-| **Security Patterns** | 20+ detected |
-| **Real-World Examples** | 5+ (SQL injection, XSS, etc.) |
-| **Decision Gates** | 4 (security, test, quality, branch) |
-| **Compliance References** | CWE, OWASP, FINRA |
-| **Development Time** | ~4 hours (Senior SDE quality) |
+| Metric                    | Value                               |
+| ------------------------- | ----------------------------------- |
+| **Total Lines**           | 3,500+                              |
+| **Skills**                | 6 (each fully specified)            |
+| **Files**                 | 13 (code + docs)                    |
+| **Security Patterns**     | 20+ detected                        |
+| **Real-World Examples**   | 5+ (SQL injection, XSS, etc.)       |
+| **Decision Gates**        | 4 (security, test, quality, branch) |
+| **Compliance References** | CWE, OWASP, FINRA                   |
+| **Development Time**      | ~4 hours (Senior SDE quality)       |
 
 ---
 
