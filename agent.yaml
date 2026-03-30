@@ -1,0 +1,26 @@
+spec_version: "0.1.0"
+name: devsentinel
+version: 0.1.0
+description: "Principal-level AI code reviewer with security gating and branch promotion"
+model:
+  preferred: claude-sonnet-4-5-20250929
+  fallback: claude-opus-4-1
+skills:
+  - pr-diff-reader
+  - security-scanner
+  - quality-analyzer
+  - test-gap-detector
+  - review-composer
+  - branch-guardian
+tags:
+  - hackathon
+  - code-review
+  - security
+  - branch-promotion
+  - enterprise-ready
+metadata:
+  author: "Anas Alam"
+  contact: "anasalam7739@gmail.com"
+  github_integration: true
+  branch_promotion_enabled: true
+  security_gating_enabled: true

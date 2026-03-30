@@ -1,0 +1,27 @@
+{
+    "name": "devsentinel",
+    "version": "0.1.0",
+    "description": "AI-powered principal-level code reviewer with branch promotion gating",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "validate": "gitagent validate",
+        "info": "gitagent info",
+        "test": "node --experimental-modules test.js"
+    },
+    "keywords": [
+        "gitagent",
+        "code-review",
+        "ai-agent",
+        "security",
+        "branch-promotion"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "gitclaw": "^0.1.0"
+    },
+    "devDependencies": {
+        "gitagent": "^0.1.0"
+    }
+}
